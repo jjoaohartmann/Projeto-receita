@@ -1,0 +1,116 @@
+body {
+    background-color: #e4a810bd;
+    color: rgb(0, 0, 0);
+    /* codigos de boa pratica para a pagina */
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+h1 {
+    background-color: #e6bb6b;
+    border-radius: 20px;
+    width: 50%;
+    height: fit-content;
+    align-items: center;
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 1%;
+    border: 3px solid #D2691E;
+    text-align: center;
+
+    /* titulo */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: aliceblue;
+}
+
+.grupo-cards {
+    /* border: 1px solid red; */
+    display: flex;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    justify-content: center;
+}
+
+.card {
+    background-color: aliceblue;
+    width: 300px;
+    border-radius: 5px;
+    padding: 10px;
+    margin-right: 2%;
+}
+
+.card img {
+    width: 299px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.card h3,
+p {
+    text-align: center;
+}
+
+.container button {
+    background-color: #daa520bd;
+    border-radius: 5px;
+    border-color: #D2691E;
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 10px 15px;
+
+    /* centraliza o botão horizontalmente */
+    display: block;
+    margin: 10px auto 0 auto;
+
+}
+
+.container button a:hover {
+    color: aliceblue;
+    /* Muda a cor do texto para vermelho */
+    text-decoration: underline;
+    /* Adiciona um sublinhado */
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.butao-inicio button {
+    width: 200px;
+    height: 50px;
+    background-color: #daa520bd;
+    border-radius: 5px;
+    border-color: #D2691E;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 15px;
+}
+
+.butao-inicio button a:hover {
+    color: aliceblue;
+    /* Muda a cor do texto para vermelho */
+    text-decoration: underline;
+    /* Adiciona um sublinhado */
+}
+
+footer {
+    /* centraliza o botão horizontalmente */
+    display: block;
+    margin: 10px auto 0 auto;
+    margin-bottom: 2%;
+    padding: 2%;
+    background-color: #e6bb6b;
+    border: 3px solid #D2691E;
+    /* border-radius: 10px; */
+    margin: 0;
+    height: 38px;
+    color: rgb(66, 55, 55);
+    margin-top: 2%;
+    text-align: center;
+}
