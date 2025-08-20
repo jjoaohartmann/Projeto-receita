@@ -1,0 +1,89 @@
+body {
+    background-color: #daa520bd;
+    margin: 0;
+}
+
+/* * {
+    border: solid 1px red;
+} */
+
+.container {
+    background-color: white;
+    border-radius: 20px;
+    width: 50%;
+    height: fit-content;
+    align-items: center;
+    margin: auto;
+    padding: 2%;
+    border: 5px solid #D2691E;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #B8860B;
+    margin-top: 1%;
+}
+
+.introducao {
+    align-items: center;
+    margin: auto;
+    font-size: 15px;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: normal;
+}
+
+.div-imagem {
+    /* combo para alinhar img */
+    margin: auto;
+    margin-top: 2%;
+    height: fit-content;
+    width: fit-content;
+    text-align: center;
+    /* border: 1px solid green; */
+}
+
+.div-imagem img {
+    /* editar imagem */
+    width: 300px;
+    height: 200px;
+    border-radius: 15px;
+    /* box-shadow: 0px 5px 10px; sombreamento imagem*/
+
+}
+
+.botao-receitas {
+    background-color: #daa520bd;
+    border-radius: 5px;
+    border-color: #D2691E;
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 12px;
+}
+
+.outras-receitas {
+    width: fit-content;
+    align-items: center;
+    margin: auto;
+    margin-top: 3%;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+footer {
+    color: gray;
+    margin-top: 2%;
+    text-align: center;
+}
+
+.outras-receitas button a:hover{
+    color: aliceblue;
+    /* Muda a cor do texto para vermelho */
+    text-decoration: underline;
+    /* Adiciona um sublinhado */
+}
